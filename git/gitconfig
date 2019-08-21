@@ -36,21 +36,18 @@ default = simple
 [include]
 path = ~/.gitconfig.local
 
-[url "ssh://git@github.com:22/likwid/"]
+[url "ssh://git@github.com:22/cerebralmind/"]
 insteadOf = me://
 
 [url "ssh://git@ghe.coxautoinc.com/"]
 insteadOf = ghe://
 
-[url "ssh://git@git-ssh.peerfit.com:1022/peerfit/"]
-insteadOf = pf://
-
-[includeIf "gitdir:~/src/git.peerfit.com/"]
+[includeIf "gitdir:~/"]
 path = .gitconfig_work
 
-[includeIf "gitdir:~/src/github.com/likwid/"]
+[includeIf "gitdir:~/src/github.com/cerebralmind/"]
 path = .gitconfig_personal
 
 [user]
-name = Jeff Gonzalez
-email = likwid@gmail.com
+name = Devin Vitone
+email = vitone@gmail.com

@@ -75,16 +75,6 @@ set noswapfile
 set splitright
 set splitbelow
 
-" Disable arrow keys
-map <Left> :echo "no! Use h"<cr>
-map <Right> :echo "no! Use l"<cr>
-map <Up> :echo "no! Use k"<cr>
-map <Down> :echo "no! Use j"<cr>
-imap <Left> <nop>
-imap <Right> <nop>
-imap <Up> <nop>
-imap <Down> <nop>
-
 " Quicker window movement
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
