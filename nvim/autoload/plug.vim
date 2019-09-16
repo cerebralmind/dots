@@ -1,1 +1,1 @@
-/Users/jgonzalez/dots/dependencies/vim-plug/plug.vim
+/home/ubuntu/dots/dependencies/vim-plug/plug.vim
