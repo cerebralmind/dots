@@ -1,3 +1,4 @@
 source $HOME/.asdf/asdf.sh
 source $HOME/.asdf/completions/asdf.bash
 source $HOME/.pyenv_profile
+source $HOME/.gvm/scripts/gvm

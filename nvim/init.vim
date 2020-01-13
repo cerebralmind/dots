@@ -27,6 +27,8 @@ Plug 'mhinz/vim-mix-format'
   let g:mix_format_on_save = 1
   let g:mix_format_options = '--check-equivalent'
 
+Plug 'tveskag/nvim-blame-line'
+
 call plug#end()
 
 " not vi compatible
