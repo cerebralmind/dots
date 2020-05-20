@@ -28,6 +28,11 @@ Plug 'mhinz/vim-mix-format'
   let g:mix_format_options = '--check-equivalent'
 
 Plug 'tveskag/nvim-blame-line'
+Plug 'psf/black', { 'tag': '19.10b0' }
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'lifepillar/vim-solarized8'
+Plug 'integralist/vim-mypy'
+
 
 call plug#end()
 
