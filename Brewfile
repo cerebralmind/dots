@@ -27,6 +27,7 @@ brew 'tig'
 brew 'tree'
 brew 'vim'
 brew 'wget'
+brew 'hey'
 
 cask '1password'
 cask 'alfred'
