@@ -53,7 +53,7 @@ name = Devin Vitone
 email = devin.vitone@coxautoinc.com
 
 [merge]
-    tool = meld
+	tool = meld
 [mergetool "meld"]
     # Choose one of these 2 lines (not both!) explained below.
     # cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"

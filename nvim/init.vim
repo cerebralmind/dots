@@ -32,6 +32,7 @@ Plug 'psf/black', { 'tag': '19.10b0' }
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'lifepillar/vim-solarized8'
 Plug 'integralist/vim-mypy'
+Plug 'w0rp/ale'
 
 
 call plug#end()
