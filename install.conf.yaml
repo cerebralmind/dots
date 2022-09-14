@@ -16,6 +16,8 @@
     ~/.config/nvim: nvim
     ~/.config/nvim/autoload/plug.vim: dependencies/vim-plug/plug.vim
     ~/.tmux.conf: tmux.conf
+    ~/.nvmcr.sh: zsh/nvmrc.sh
+    ~/.pyenv_profile: zsh/pyenv_profile
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

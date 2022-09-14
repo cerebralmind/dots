@@ -4,6 +4,6 @@ complete -o nospace -C /usr/bin/terraform terraform
 source $HOME/.asdf/asdf.sh
 source $HOME/.asdf/completions/asdf.bash
 source $HOME/.pyenv_profile
-source $HOME/.gitlab_registry
+# source $HOME/.gitlab_registry
 source $HOME/.nvmrc.sh
 #source $HOME/.gvm/scripts/gvm
