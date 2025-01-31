@@ -6,7 +6,7 @@
 - clean: ['~']
 
 - link:
-    # ~/.asdf: dependencies/asdf
+    ~/.asdf: dependencies/asdf
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
     ~/.zsh: zsh/
@@ -25,14 +25,14 @@
 # - brewfile:
 #     file: Brewfile
 
-    # - asdf:
-    #     - plugin: python
-    #       url: https://github.com/asdf-community/asdf-python
-    #       global: 3.10.4
-    #       versions:
-    #         - 3.8.13
-    #         - 3.9.13
-    #         - 3.10.4
+- asdf:
+  - plugin: python
+    url: https://github.com/asdf-community/asdf-python
+    global: 3.13.1
+          versions:
+            - 3.11.11
+            - 3.13.1
+
     #     - plugin: nodejs
     #       url: https://github.com/asdf-vm/asdf-nodejs
     #       global: v18.8.0
