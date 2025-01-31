@@ -29,9 +29,9 @@
   - plugin: python
     url: https://github.com/asdf-community/asdf-python
     global: 3.13.1
-          versions:
-            - 3.11.11
-            - 3.13.1
+    versions:
+      - 3.11.11
+      - 3.13.1
 
     #     - plugin: nodejs
     #       url: https://github.com/asdf-vm/asdf-nodejs
