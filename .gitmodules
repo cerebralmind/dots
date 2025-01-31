@@ -10,9 +10,6 @@
 [submodule "dependencies/oh-my-zsh"]
 	path = dependencies/oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
-[submodule "dependencies/asdf"]
-	path = dependencies/asdf
-	url = https://github.com/asdf-vm/asdf.git
 [submodule "dependencies/vim-plug"]
 	path = dependencies/vim-plug
 	url = https://github.com/junegunn/vim-plug.git
@@ -22,6 +19,3 @@
 [submodule "dependencies/dotbot-brewfile"]
 	path = dependencies/dotbot-brewfile
 	url = https://github.com/sobolevn/dotbot-brewfile.git
-[submodule "dependencies/dotbot-asdf"]
-	path = dependencies/dotbot-asdf
-	url = https://github.com/sobolevn/dotbot-asdf.git

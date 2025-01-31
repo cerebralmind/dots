@@ -36,25 +36,12 @@ default = simple
 [include]
 path = ~/.gitconfig.local
 
-[url "ssh://git@github.com:22/cerebralmind/"]
-insteadOf = me://
-
-[url "ssh://git@ghe.coxautoinc.com/"]
-insteadOf = ghe://
-
-[includeIf "gitdir:~/"]
-path = .gitconfig_work
-
-[includeIf "gitdir:~/src/github.com/cerebralmind/"]
-path = .gitconfig_personal
-
-[user]
-name = Devin Vitone
-email = devin.vitone@coxautoinc.com
-
 [merge]
 	tool = meld
 [mergetool "meld"]
     # Choose one of these 2 lines (not both!) explained below.
     # cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
-    cmd = meld "$LOCAL" "$BASE" "$REMOTE" --output "$MERGED"
+  cmd = meld "$LOCAL" "$BASE" "$REMOTE" --output "$MERGED"
+
+[init]
+	defaultBranch = main

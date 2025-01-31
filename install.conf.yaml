@@ -6,7 +6,7 @@
 - clean: ['~']
 
 - link:
-    ~/.asdf: dependencies/asdf
+    # ~/.asdf: dependencies/asdf
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
     ~/.zsh: zsh/
@@ -16,33 +16,65 @@
     ~/.config/nvim: nvim
     ~/.config/nvim/autoload/plug.vim: dependencies/vim-plug/plug.vim
     ~/.tmux.conf: tmux.conf
+    ~/.nvmrc.sh: zsh/nvmrc.sh
+    ~/.pyenv_profile: zsh/pyenv_profile
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
 
-- brewfile:
-    file: Brewfile
+# - brewfile:
+#     file: Brewfile
 
-- asdf:
-    - plugin: python
-      url: https://github.com/danhper/asdf-python.git
-      global: 3.8.3
-      versions:
-        - 3.7.5
-        - 3.8.2
-        - 3.8.3
-    - plugin: nodejs
-      url: https://github.com/asdf-vm/asdf-nodejs.git
-    - plugin: ruby
-      url: https://github.com/asdf-vm/asdf-ruby.git
-    - plugin: elixir
-      url: https://github.com/asdf-vm/asdf-elixir.git
-    - plugin: golang
-      url: https://github.com/kennyp/asdf-golang
-    - plugin: rust
-      url: https://github.com/code-lever/asdf-rust
-    - plugin: packer
-      url: https://github.com/Banno/asdf-hashicorp
-    - plugin: terraform
-      url: https://github.com/Banno/asdf-hashicorp
-    - plugin: neovim
+    # - asdf:
+    #     - plugin: python
+    #       url: https://github.com/asdf-community/asdf-python
+    #       global: 3.10.4
+    #       versions:
+    #         - 3.8.13
+    #         - 3.9.13
+    #         - 3.10.4
+    #     - plugin: nodejs
+    #       url: https://github.com/asdf-vm/asdf-nodejs
+    #       global: v18.8.0
+    #       versions:
+    #         - v18.8.0
+    #     - plugin: golang
+    #       url: https://github.com/kennyp/asdf-golang
+    #       global: 1.19
+    #       versions:
+    #         - 1.19
+    #     - plugin: awscli
+    #       url: https://github.com/MetricMike/asdf-awscli
+    #       global: 2.7.29
+    #       versions:
+    #         - 2.7.29
+    #     - plugin: rust
+    #       url: https://github.com/code-lever/asdf-rust
+    #       global: 1.63.0
+    #       versions:
+    #         - 1.63.0
+    #     - plugin: packer
+    #       url: https://github.com/asdf-community/asdf-hashicorp
+    #       global: 1.8.3
+    #       versions:
+    #         - 1.8.3
+    #     - plugin: terraform
+    #       url: https://github.com/asdf-community/asdf-hashicorp
+    #       global: 1.2.8
+    #       versions:
+    #         - 1.2.8
+    #     - plugin: neovim
+    #       url: https://github.com/richin13/asdf-neovim
+    #       global: v0.7.2
+    #       versions:
+    #         - v0.7.2
+    #     - plugin: ansible-base
+    #       url: https://github.com/amrox/asdf-pyapp
+    #       global: 2.10.17
+    #       versions:
+    #         - 2.10.17
+    #     - plugin: cookiecutter
+    #       url: https://github.com/shawon-crosen/asdf-cookiecutter
+    #       global: 2.1.1
+    #       versions:
+    #         - 2.1.1
